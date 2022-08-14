@@ -2,6 +2,8 @@ import React, { ChangeEvent, useState } from 'react';
 import Countdown from './components/Countdown';
 import moment from 'moment';
 
+import PeepoHappy from './assets/Peepo Happy.svg';
+
 const App: React.FunctionComponent = () => {
 	const currentDate = moment(new Date(Date.now()))
 		.add(1, 'day')
@@ -18,7 +20,12 @@ const App: React.FunctionComponent = () => {
 	};
 
 	return (
-		<div className='m-auto flex h-screen flex-col items-center justify-center bg-gray-900'>
+		<div className='relative m-auto flex h-screen flex-col items-center justify-center bg-gray-900'>
+			<img
+				src={PeepoHappy}
+				alt='Peepo Happy'
+				className='absolute bottom-0 left-0 h-96 w-96'
+			/>
 			{!showCountdown ? (
 				<div className='flex flex-col flex-wrap gap-y-6'>
 					<h1 className='text-4xl font-extrabold uppercase tracking-wider text-white'>
