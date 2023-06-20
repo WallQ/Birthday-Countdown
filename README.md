@@ -1,5 +1,7 @@
 # Birthday-Countdown
 
+## Description
+
 This is a [Vite App](https://vitejs.dev/) project bootstrapped with [`npm create vite@latest calculator -- --template react-ts`](https://vitejs.dev/guide/).
 
 ## Technologies
