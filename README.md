@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a [Vite App](https://vitejs.dev/) project bootstrapped with [`npm create vite@latest calculator -- --template react-ts`](https://vitejs.dev/guide/).
+This is a [Vite App](https://vitejs.dev/) project bootstrapped with [`npm create vite@latest birthday-countdown -- --template react-ts`](https://vitejs.dev/guide/).
 
 ## Technologies
 [<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" width="64" height="64" />](https://www.typescriptlang.org/)
